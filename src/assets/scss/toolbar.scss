@@ -1,0 +1,23 @@
+nav.responsive-toolbar {
+    background: #333;
+    height: 60px;
+    width: 100%;
+
+    ul {
+        display: flex;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        height: 100%;
+        align-items: center;
+
+        li{
+            list-style: none;
+        }
+
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

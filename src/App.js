@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -8,7 +8,7 @@ import HomeContainer from './container/HomeContainer';
 import BlogContainer from './container/BlogContainer';
 import ContactContainer from './container/ContactContainer';
 import ResponsiveNavigation from './components/ResponsiveNavigation';
-import { faHome,faBlog,faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faBlog, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 
 
 function App() {
@@ -32,13 +32,14 @@ function App() {
 
   return (
     <Router>
-      <ResponsiveNavigation
-        navLinks={navLinks}
-        logo={logo}
-      />
 
       <div className="App">
-      
+        
+        <ResponsiveNavigation
+          navLinks={navLinks}
+          logo={logo}
+        />
+
         <Switch>
 
           <Route path="/blog">

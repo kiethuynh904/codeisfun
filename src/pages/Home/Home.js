@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Banner from './../../components/Banner';
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                Home 
-            </div>
+            <section>
+                <Banner>
+                </Banner>
+            </section>
         );
     }
 }

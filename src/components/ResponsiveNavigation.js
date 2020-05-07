@@ -12,7 +12,7 @@ function ResponsiveNavigation({ navLinks, background, hoverBackground, linkColor
 
             <div className="toolbar__logo" >
                 <img width="60px" height="60px" src={logo} />
-                <p>The name</p>
+                <p>Codeisfun</p>
             </div>
 
             <div className="toolbar__line"><span></span></div>
